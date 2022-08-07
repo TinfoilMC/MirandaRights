@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.tinfoilmc.mirandarights.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "network.AccessorLoginKeyC2SPacket",
+    "network.ClientLoginNetworkHandlerMixin",
+    "network.ClientConnectionMixin",
+    "internal.ProfileKeysMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
